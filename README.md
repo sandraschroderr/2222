@@ -136,4 +136,5 @@ So far we have seen a scenario where Users create entity and users become creato
 * The Instagram entity is growing and now it has A,B,C,D,and E as workers while A & B are creators.
 * After few years, D got an innovative idea. An Idea where users can record their videos with music and post them. D called this idea as Reels.
 * Now D has two options:
-	1. If in
+	1. D can create Reels as their own entity by staying in Instagram (if Instagram policy allows)
+	2. D can invite Instagram as owner. Now entire Instagram has one vote as owner. 
