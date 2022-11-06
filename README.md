@@ -76,11 +76,46 @@ Ans: To maintain fair distribution of power in the entity and in the ecosystem a
 	* Owners : A, B
 	* Workers : A, B, C
 
-* A, B and C will now code various features and as they create Pull Requests and their requests are accepted to be merged, their value will be increasing (more precise mathematical calculation of value is presented in next chapter). Let us assume at the end of the quarter: A,B and C has values of 13, 13 and 4 respectively. (since initial policy has metric system of 1 to 10 for values, the value of the workers lie within this limit but value of owner lies above the limit, i.e, greater or equal to 10. Why? stay tuned).
-* Now at end of the quarter, the entity has generated a profit of 1000 eur. Then according to the value of each worker, A gets 392 Eur, B gets 392 Eur and C gets 212 eur.
+* A, B and C will now code various features and as they create Pull Requests and their requests are accepted to be merged, their value will be increasing (more precise mathematical calculation of value is presented in next chapter). Let us assume at the end of the quarter: A,B and C has values of 12.5, 12.5 and 6 respectively. (since initial policy has metric system of 1 to 10 for values, the value of the workers lie within this limit but value of owner lies above the limit, i.e, greater or equal to 10. Why? stay tuned).
+* Now at end of the quarter, the entity has generated a profit of 1000 eur. Then according to the value of each worker, A gets 417 Eur, B gets 417 Eur and C gets 166 eur.
 * Now let us take a stop and look at how the value is calculated within our ecosystem and explain how this system maintains fairness
 
 
 ## Value calculation (mathematical concept)
 
-Let us take the above example. A, B and C together 
+Let us take the above example. A, B and C together performed 10 tasks with following values. (Remember the values are agreed upon the entity by voting so they are fair)
+
+* A did 2 tasks one with value 3 and one with value 7. Together for this quarter, A has defined value of 10
+
+* B did 5 tasks with value of 1 and one task with value of 5. Together for this quarter, B has defined value of 10
+
+* C did two tasks with value 10. Together for this quarter, C has defined value of 20
+
+Now let us sum up all the defined values of all the workers in the entity. We get 10 + 10 + 20 = 40
+
+We scale individual defined value to make the value lie between agreed upon metric system in the initial policy, in this case, we scale it to 1-10. Thus effective value of the workers become:
+
+A = round(10/40) = 2.5
+B = round(10/40) = 2.5
+C = round(20/40) = 5
+
+Now, we know that A & B are owners of this entity so without the entity, nothing of this would have not been possible, so we add maximum value to effective value of the owners. Thus making the effective value of A & B = 12.5
+
+In the case where owners does not become workers, i.e, Let us assume A & B are just as owners and only C is the worker. Then all the PR merges are done By C, thus effectively making the value of of A,B,C = 10 each meaning all the people have equal value in this scenario.
+
+Let us come back to our example:
+
+A has 12.5
+B has 12.5
+C has 5
+
+We know that in this quarter they got 1000 eur profit. Now our ecosystem automatically dissipate the profit among A,B,C based on their effective value. That is
+
+A gets : 12.5/30 * 1000 = 417 Eur
+B gets : 12.5/30 * 1000 = 417 Eur
+C gets : 5/30 * 1000 = 166 Eur
+
+### what is the use of all this?
+
+In current company scenario. The entire 1000 eur belongs to A & B and they collectively decides how much income should C gets, and 166 eur in 1000 eur is 16.6% and there is no way a company gives that much percentage of income to its worker. So irrespective of the work C did, C gets a fixed amount of money. But in our system, it is proven that C gets fair share of income based on the impact C created in the entity.
+
