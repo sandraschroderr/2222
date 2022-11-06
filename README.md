@@ -119,3 +119,21 @@ C gets : 5/30 * 1000 = 166 Eur
 
 In current company scenario. The entire 1000 eur belongs to A & B and they collectively decides how much income should C gets, and 166 eur in 1000 eur is 16.6% and there is no way a company gives that much percentage of income to its worker. So irrespective of the work C did, C gets a fixed amount of money. But in our system, it is proven that C gets fair share of income based on the impact C created in the entity.
 
+
+-------------------------
+
+So far we have covered one pillar of our proposed ecosystem. Fairness. There is another pillar. That is Innovation.
+
+* In today's scenario, if a worker of a company comes up with a brilliant innovative idea, the chances are that the company he/she works with will own the large proportion of the idea, and give minority share to the worker. In order to avoid this, worker should take a risk and leave the company and start own company.
+* This is risky for the worker as he basically giving up his standard pay and its a loss for company because it is losing a valuable worker with innovative mind.
+* What's the solution? Our ecosystem.
+
+
+### Entity as owner of entity.
+
+So far we have seen a scenario where Users create entity and users become creators. Let us take the following scenario.
+
+* The Instagram entity is growing and now it has A,B,C,D,and E as workers while A & B are creators.
+* After few years, D got an innovative idea. An Idea where users can record their videos with music and post them. D called this idea as Reels.
+* Now D has two options:
+	1. If in
